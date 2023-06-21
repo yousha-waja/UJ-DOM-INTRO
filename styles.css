@@ -16,8 +16,11 @@
     border-style: groove;
     width: 100%;
 }
-.background {
+.background,body {
     background-image: url(./background.png);
+    height: 100%;
+    margin: 0;
+    padding: 0.1em 0.1em;
 }
 
 h1, ol, li {
