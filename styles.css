@@ -1,0 +1,43 @@
+.number {
+    width: 0rem;
+    margin: auto;
+    font-size: 4rem;
+
+}
+
+.box {
+    margin: auto 20rem;
+    background-color: rgb(0, 255, 38);
+}
+
+.btn {
+    border-color: blue;
+    border-width: 0.3em;
+    border-style: groove;
+    width: 100%;
+}
+.background {
+    background-image: url(./background.png);
+}
+
+h1, ol, li {
+    font-family: tiltPrism;
+    color: rgb(0, 255, 38);
+    background-color: rgba(223, 4, 252, 0.671);
+}
+
+.animals {
+    list-style: georgian;
+    padding: 1em;
+    text-align: left;
+    color: rgb(132, 0, 255);
+  }
+
+  @font-face {
+    font-family: 'tiltPrism';
+    src: url('./TiltPrism-Regular.ttf') format('truetype');
+  }
+
+  .hidden {
+    display: none;
+  }
