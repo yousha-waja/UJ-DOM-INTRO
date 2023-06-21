@@ -11,9 +11,12 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="./TiltPrism-Regular.ttf">
+    <link rel="stylesheet" href="./TiltPrism-Regular.ttf" />
     <script src="code.js" defer></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"
+    ></script>
     <title>Intro to using DOM</title>
   </head>
   <body>
@@ -22,10 +25,24 @@
       <div class="row box"><p class="number">0</p></div>
       <div class="row text-center">
         <div class="col-sm-4 offset-1 text-center">
-          <button class="btn Increment" style="background-color: blue; color: aqua;  border-color: rgb(255, 0, 0)">Increment</button>
+          <button
+            class="btn Increment"
+            style="
+              background-color: blue;
+              color: aqua;
+              border-color: rgb(255, 0, 0);
+            "
+          >
+            Increment
+          </button>
         </div>
-        <div class="col-sm-4 offset-2 ">
-          <button class="btn Decrement"  style="background-color: rgb(255, 0, 0); color: aqua;">Decrement</button>
+        <div class="col-sm-4 offset-2">
+          <button
+            class="btn Decrement"
+            style="background-color: rgb(255, 0, 0); color: rgb(0, 0, 0)"
+          >
+            Decrement
+          </button>
         </div>
       </div>
       <div class="row mt-1" style="background-color: aqua">
@@ -35,7 +52,9 @@
         <div class="col">
           <button type="submit" class="btn submit">Submit</button>
         </div>
-        <div class="answer hidden"><p>"The entered name is displayed in the list below"</p></div>
+        <div class="answer hidden">
+          <p>"The entered name is displayed in the list below"</p>
+        </div>
       </div>
       <ol class="animals text-left"></ol>
     </div>
