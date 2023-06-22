@@ -6,7 +6,7 @@
 }
 
 .box {
-    margin: auto 20rem;
+    margin: auto 2rem;
     background-color: rgb(0, 255, 38);
 }
 
@@ -25,8 +25,13 @@
 
 h1, ol, li {
     font-family: tiltPrism;
-    color: rgb(0, 255, 38);
+    font-size: 1em;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
     background-color: rgba(223, 4, 252, 0.671);
+}
+h1 {
+    font-size: 3em;
 }
 
 .animals {
